@@ -19,37 +19,17 @@ body {
     background: #3f966dd0;
 }
 
-/*tamanho e altura do container, flexivel e cor da sombra da caixa*/
-.container{
-    width: 80%;
-    height: 80vh;
-    display: flex;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
-}
-
-/*tamanho da imagem, flexilizaçao, centralizaçao, cor do background e dinstanciamneto entre o elemento e a borda (PADDING)*/
-.form-image {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #a7ffb5d7;
-    padding: 1rem;
-}
-
-.form-image img {
-    width: 31rem;
-}
 
 /*tamanho, flexilizaçao, ordem em colunas, centralizaçao, cor do fundo e distancia do elemento e borda*/
 .form {
     width: 50%;
+    height: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #fff;
-    padding: 3rem;
+    padding: 5rem;
 }
 
 /*ediçao na parte do header: margem de baixo, flexilizaçao e espaçamento*/
@@ -164,27 +144,6 @@ body {
     color: #000000c0;
 }
 
-.continue-button button {
-    width: 100%;
-    margin-top: 2.5rem;
-    border: none;
-    background-color: #0b7242;
-    padding: 0.62rem;
-    border-radius: 5px;
-    cursor: pointer;
-
-    /*mudar a cor ao passar por cima do botao*/
-}
-.continue-button button:hover {
-    background-color: #1e3825f1;
-}
-
-.continue-button button a {
-    text-decoration: none;
-    font-size: 0.93rem;
-    font-weight: 500;
-    color: #fff;
-}
 
 @media screen and (max-width: 1330px) {
     .form-image {
@@ -229,7 +188,7 @@ body {
 
 .main{
     height: 600px;
-    background-color: #589679d0;
+    background-color: #baddcde1;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -240,11 +199,13 @@ body {
     height: 300px;
 }
 
+/*cor dentro do card, tamanho, borda e cor da sombra*/
 .filho{
-    background-color: #8aceaed0;
+    background-color: #ffffffd0;
     width: 500;
     box-shadow: 4px 4px 4px 4px #014d2980;
     border-radius: 5px;
+    align-items: center;
 }
 
 .filho div{
@@ -253,15 +214,12 @@ body {
     text-align: center;
 }
 
-button{
-    width: 100px;
+.comprar{
+    width: 120px;
  height: 40px;
  border-radius: 40px;
  cursor: pointer ;
- background-color: #1e3825f1;
- color: rgb(242, 255, 224);
-}
+ background-color: #62806af1;
+ color: rgb(255, 255, 255);
 
-.login-button button:hover {
-    background-color: #1e3825f1;
 }
